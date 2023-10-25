@@ -16,10 +16,10 @@ const scrollTop = () => {
   <div class="container mx-auto mb-24 mt-40">
     <section id="home" class="flex justify-between mt-20">
       <div class="w-1/2">
-        <p class="text-2xl font-bold text-gray-600">Olá, eu sou</p>
+        <p class="text-2xl font-bold text-gray-600">Olá, meu nome é</p>
         <p class="text-4xl font-bold my-12">Urich Oliveira</p>
         <p class="text-2xl font-bold text-gray-600">Tenho 25 anos, moro no interior de São Paulo
-          e atuo como Programador Backend/Fullstack</p>
+          e atuo como programador fullstack <span class="animate-pulse">(mais puxado pro backend 🤣)</span></p>
       </div>
       <img src="~/public/images/giphy.gif" alt="Coding" class="rounded-xl h-[420px]">
     </section>

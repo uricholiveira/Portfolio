@@ -1,4 +1,9 @@
 <script setup lang="ts">
+useHead({
+  htmlAttrs: {
+    class: 'scroll-smooth'
+  },
+})
 const colorMode = useColorMode()
 
 const isDark = computed({
@@ -24,7 +29,7 @@ const isDark = computed({
         <NuxtLink to="#projects">Projetos</NuxtLink>
         <NuxtLink to="#blog">Blog</NuxtLink>
       </div>
-      <div>
+      <div class="items-baseline">
         <NuxtLink to="#contact">Contato</NuxtLink>
       </div>
     </div>
