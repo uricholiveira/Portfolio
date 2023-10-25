@@ -18,13 +18,14 @@ const isDark = computed({
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
       </NuxtLink>
       <div class="flex justify-end gap-10 items-center">
-        <NuxtLink>Home</NuxtLink>
-        <NuxtLink>Skills</NuxtLink>
-        <NuxtLink>Experiência</NuxtLink>
-        <NuxtLink>Blog</NuxtLink>
+        <NuxtLink to="#home">Home</NuxtLink>
+        <NuxtLink to="#skills">Skills</NuxtLink>
+        <NuxtLink to="#experience">Experiência</NuxtLink>
+        <NuxtLink to="#projects">Projetos</NuxtLink>
+        <NuxtLink to="#blog">Blog</NuxtLink>
       </div>
       <div>
-        <NuxtLink>Contato</NuxtLink>
+        <NuxtLink to="#contact">Contato</NuxtLink>
       </div>
     </div>
   </nav>
